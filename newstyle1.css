@@ -1,0 +1,21 @@
+span{
+ color: blueviolet;
+ 
+}
+
+a{
+    color: chartreuse;
+    font-size: 50px;
+    background-color: cadetblue;
+}
+a:hover{
+    color: aliceblue;
+    background-color: black;
+}
+a:active{
+    color: brown;
+}
+a:visited{
+    color: blue;
+    background-color: chocolate;
+}

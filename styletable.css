@@ -1,0 +1,36 @@
+table, tr,th,td{
+    border: 3px solid black;
+    text-align: center;
+    border-collapse: collapse;
+}
+table{
+    width: 50%;
+}
+h1{
+    
+    display: inline-block;
+}
+span{
+    display: inline-block;
+}
+ul li{
+    display: inline;
+}
+.p1{
+    border: 3px solid red;
+    max-width: 400px;
+    margin: auto;
+}
+.p2{
+    border: 3px solid green;
+    max-width: 400px;
+    margin: auto;
+}
+.p3{
+    border: 3px solid blue;
+    width: 500px;
+    height: 300px;
+    overflow: scroll;
+    background-color: bisque;
+
+}

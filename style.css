@@ -1,0 +1,54 @@
+h1{
+    color:brown;
+    background-color: burlywood;
+}
+body{
+    
+.oswald-<uniquifier> {
+  font-family: "Oswald", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+    background-color: bisque;
+    background-image: url(4382578.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#p1{
+    border:5px red dotted;
+
+}
+.p2{
+    color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 5px;
+}
+.Tua{
+    width: 500px;
+    height: 300px;
+    background-color: aqua;
+    border: 4px solid red;
+    margin:auto;
+    padding: 50px;
+    outline: black;
+    outline-offset: 5px;
+    color: black;
+    text-transform: capitalize;
+    text-align: center;
+    text-indent: 25px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    line-height: 40px;
+    font-size: larger;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    color: black;
+}# first_project
+# first_project

@@ -1,0 +1,19 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    margin: 100px auto;
+    /*transition-property: all;
+    transition-delay: 1s;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(.13,1.09,1,-0.11); */
+    transition: all 1s 0.5s linear;
+}  
+.box:hover{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: aqua;
+    transform: rotate(180deg);
+    
+} 

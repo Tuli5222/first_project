@@ -1,0 +1,12 @@
+.social{
+    width: 83px;
+    height: 83px;
+    background-image: url(ssi.webp);
+    background-repeat: no-repeat;
+    background-position: 0 -85px;
+    border-radius: 50%;
+}
+.social:hover{
+    background-position: 0 -168px;
+    transition: 1s;
+}

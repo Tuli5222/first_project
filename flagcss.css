@@ -1,0 +1,43 @@
+.greenbox{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    position: relative;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.redbox{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;  
+}
+.name{
+    top: 10px;
+    font: bold;
+    width: 400px;
+    border: 2px solid tomato;
+    text-align: center;
+    position:sticky;
+    background-color: black;
+    color: aliceblue;
+}
+p{
+    padding-bottom: 500px;
+}
+.jun{
+    right: 30px;
+    bottom: 30px;
+    position: fixed;
+    font: bolder;
+    color: crimson;
+}

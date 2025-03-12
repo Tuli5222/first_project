@@ -1,0 +1,49 @@
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    margin: 100px auto;
+    position: relative;
+    /*animation-name: Junainah;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    animation-fill-mode: backwards;
+    animation-play-state: running; */
+    animation: Junainah 4s linear 2s infinite reverse backwards running;
+
+} 
+
+@keyframes Junainah{
+    /*from{background-color: black;}
+    to{background-color: cadetblue;} */
+    0%{
+        background-color: black;
+        left: 0;
+        right: 0;
+    }
+    25%{
+        background-color: red;
+        left: 500px;
+        right: 0px;
+    }
+    50%{
+        background-color: rgb(96, 18, 170);
+        left: 500px;
+        right: 500px;
+        border-radius: 50%;
+    }
+    75%{
+        background-color: rgb(245, 190, 8);
+    left: 0px;
+    right: 500px;
+    }
+    100%{
+        background-color: rgb(8, 104, 56);
+        left: 0;
+        right: 0;
+        border-radius: 0%;
+    }            
+ }

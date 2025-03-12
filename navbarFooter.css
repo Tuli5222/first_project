@@ -1,0 +1,149 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color:#e6d8d8 ;
+}
+/*header start*/
+header{
+    width: 100%;
+    background-color: rgb(65, 63, 63);
+    color: aliceblue;
+    display: flex; /*header er shob jinish pashpashi chole ashbe */
+}
+.logo{
+    color: cadetblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    font-style: normal;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: center; /*The "justify-content: center;" aligns the flex items at the center of the container*/
+    align-items: center;
+
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    width: 170px;
+    height: 50px;
+    line-height: 50px;/* height of a line*/
+    text-align: center;
+    float: left; /* shob lekha left side chole jabe pashapashi*/
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+
+}
+.navbar ul li a{
+    text-decoration: none;/* link er nicher line ta chole jabe*/
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.navbar ul li:hover{
+    background-color: crimson;
+    transition: all ease-in 0.5s ;
+}
+.navbar ul ul{
+    display: none;
+}
+.navbar ul li:hover > ul{
+    display: block;
+}
+.call{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(97, 123, 129);
+    border-radius: 20px ;
+    padding: 10px;
+    background-color: rgb(4, 15, 39);
+    position: relative;
+}
+
+.call:hover{
+   background-color: crimson;
+   transition: All ease-in 0.5s;
+}
+/*header end*/
+
+/*Form start*/
+.form1{
+    background-color: rgb(198, 224, 137);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin: 0 auto;
+    width: fit-content;
+    height: fit-content;
+    padding: 50px 80px;
+    margin-top: 30px;
+    border-radius: 5%;
+    box-shadow: 10px 10px 25px grey;;
+
+}
+.form1 input{
+    border-radius: 40px;
+    border-color: #8ad8eb;
+}
+.form1 .button{
+    font-weight: bold;
+}
+/*mobile View*/
+
+
+
+
+/*Form End*/
+
+/*footer start*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background-color:#3d3c3c;
+    width: 100%;
+    color: #fff;
+}
+.name h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: cadetblue;
+} 
+.text p{
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+.icon i{
+    font-size: 24px;
+    position: relative;
+    top: -10px;
+    padding: 7px;/*shob side 10px kore shore jabe*/ 
+}
+.copy{
+    height: 30px;
+    width: 100%;
+    background: black;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+
+
